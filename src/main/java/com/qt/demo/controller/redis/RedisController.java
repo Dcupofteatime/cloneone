@@ -54,6 +54,6 @@ public class RedisController {
         config.useSingleServer();
 
         Redisson.create();
-        return "";
+        return "ss";
     }
 }
